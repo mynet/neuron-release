@@ -1,0 +1,125 @@
+<!DOCTYPE html><html><head><title>LMS</title><meta charset=utf-8><meta name=viewport content="initial-scale=1,maximum-scale=1.5"><base href=/ ><script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB-BKWJ_pcsE0zCmdeYkJfB5KcMaQyB14&libraries=drawing"></script><link rel=apple-touch-icon sizes=180x180 href="static/favicons/apple-touch-icon.png?v=20180102002"><link rel=icon type=image/png sizes=32x32 href="static/favicons/favicon-32x32.png?v=20180102002"><link rel=icon type=image/png sizes=16x16 href="static/favicons/favicon-16x16.png?v=20180102002"><link rel=manifest href="static/favicons/manifest.json?v=20180102002"><link rel=mask-icon href="static/favicons/safari-pinned-tab.svg?v=20180102002" color=#5bbad5><link rel="shortcut icon" href="static/favicons/favicon.ico?v=20180102002"><meta name=msapplication-config content="static/favicons/browserconfig.xml?v=20180102002"><meta name=mobile-web-app-capable content=yes><meta name=theme-color content=#ffffff><style>:root {
+        --my-receipts-table-half-height: 6mm;
+    }
+
+    img.right-top-tag {
+        position: absolute !important;
+        right: 3px !important;
+        top: 3px !important;
+        opacity: 0.8;
+    }
+    img.right-bottom-tag:hover {
+        opacity: 1;
+    }
+    .A4 {
+        background: white;
+        width: 210mm;
+        height: 297mm;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 25px;
+        margin-bottom: 0.5cm;
+        box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+        overflow-y: scroll;
+        box-sizing: border-box;
+    }
+    .A5 {
+        background: white;
+        width: 210mm;
+        height: 148mm;
+        display: block;
+        margin: 0 auto;
+        padding: 5mm 5mm;
+        margin-bottom: 5mm;
+        box-shadow: 0 0 5mm rgba(0, 0, 0, 0.5);
+        overflow-y: scroll;
+        box-sizing: border-box;
+    }
+    .A5 .ui.printable.table {
+        height: 100%;
+    }
+    .A5 .ui.printable.table td {
+        border: 1px solid #1b1b1b;
+        padding: 0 !important;
+        line-height: initial;
+        height: 12mm;
+        overflow: hidden;
+    }
+    .A5 .ui.printable.table .top.bold {
+        border-top: 4px solid #1b1b1b;
+    }
+    .A5 .ui.printable.table .left.bold {
+        border-left: 4px solid #1b1b1b;
+    }
+    .A5 .ui.printable.table .bottom.bold {
+        border-bottom: 4px solid #1b1b1b;
+    }
+    .A5 .ui.printable.table .right.bold {
+        border-right: 4px solid #1b1b1b;
+    }
+    .A5 .ui.printable.table .half-height {
+        height: 6mm;
+        overflow: hidden;
+    }
+    .A5 .ui.printable.table .one-height {
+        height: 12mm;
+        overflow: hidden;
+    }
+    .A5 .ui.printable.table .two-height {
+        height: 24mm;
+        overflow: hidden;
+    }
+    .A5 .ui.printable.table .three-height {
+        height: 36mm;
+        overflow: hidden;
+    }
+    .A5 .ui.printable.table .four-height {
+        height: 48mm;
+        overflow: hidden;
+    }
+    .A5 .ui.printable.table .five-height {
+        height: 60mm;
+        overflow: hidden;
+    }
+    .A5 .logo.image {
+        width: 20mm;
+        height: auto;
+        margin: auto;
+    }
+    @media print {
+        .app-container {
+            display: none;
+        }
+        .A4 {
+            box-shadow: none;
+            margin: 0;
+            width: auto;
+            height: auto;
+        }
+        .A5 {
+            margin: 0;
+            box-shadow: none;
+            overflow: hidden;
+            page-break-after:always;
+        }
+        .A5 .ui.printable.table {
+            height: 100%;
+        }
+        .A5 .ui.printable.table td {
+            padding: 0 !important;
+        }
+        .A5.print-by-A4:nth-child(odd) {
+            page-break-after:avoid;
+        }
+        .A5.print-by-A4:nth-child(even) {
+            page-break-after:always;
+        }
+        .divided {
+            page-break-before:always;
+        }
+    }
+    @media not print and (max-width: 1366px) {
+        .x_scrollable {
+            overflow-x: auto !important;
+        }
+    }</style><link href=/css/app.aceaf5bb.css rel=preload as=style><link href=/css/chunk-vendors.0f11d899.css rel=preload as=style><link href=/js/app.e605dd92.js rel=preload as=script><link href=/js/chunk-vendors.465cc92f.js rel=preload as=script><link href=/css/chunk-vendors.0f11d899.css rel=stylesheet><link href=/css/app.aceaf5bb.css rel=stylesheet></head><body style="background-color: #FAFAFA;"><div id=app-body></div><div id=print></div><script src=/js/chunk-vendors.465cc92f.js></script><script src=/js/app.e605dd92.js></script></body></html>
