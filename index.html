@@ -60,16 +60,16 @@
         height: 12mm;
         overflow: hidden;
     }
-    .A5 .ui.printable.table .top.bold {
+    .A5 .ui.printable.table .top.bold, .A4 .ui.printable.table .top.bold {
         border-top: 4px solid #1b1b1b;
     }
-    .A5 .ui.printable.table .left.bold {
+    .A5 .ui.printable.table .left.bold, .A4 .ui.printable.table .left.bold {
         border-left: 4px solid #1b1b1b;
     }
-    .A5 .ui.printable.table .bottom.bold {
+    .A5 .ui.printable.table .bottom.bold, .A4 .ui.printable.table .bottom.bold {
         border-bottom: 4px solid #1b1b1b;
     }
-    .A5 .ui.printable.table .right.bold {
+    .A5 .ui.printable.table .right.bold, .A4 .ui.printable.table .right.bold {
         border-right: 4px solid #1b1b1b;
     }
     .A5 .ui.printable.table .half-height {
@@ -101,6 +101,55 @@
         height: auto;
         margin: auto;
     }
+
+    .A4.template_1x3 {
+        width: 210mm;
+        height: 98.5mm;
+        padding: 2px 20px;
+        margin-bottom: 0 !important;
+    }
+    .A4.template_1x3.first {
+        padding-top: 12px !important;
+    }
+    .A4.template_1x3.last {
+        padding-bottom: 12px !important;
+    }
+    .A4.template_1x3 .ui.printable.table td {
+        border: 1px solid #1b1b1b;
+        padding: 0 !important;
+        line-height: initial;
+        height: 5mm;
+        overflow: hidden;
+    }
+    .A4.template_1x3 .ui.printable.table .half-height {
+        height: 2.5mm;
+        overflow: hidden;
+    }
+    .A4.template_1x3 .ui.printable.table .one-height {
+        height: 5mm;
+        overflow: hidden;
+    }
+    .A4.template_1x3 .ui.printable.table .two-height {
+        height: 10mm;
+        overflow: hidden;
+    }
+    .A4.template_1x3 .ui.printable.table .three-height {
+        height: 15mm;
+        overflow: hidden;
+    }
+    .A4.template_1x3 .ui.printable.table .four-height {
+        height: 20mm;
+        overflow: hidden;
+    }
+    .A4.template_1x3 .ui.printable.table .five-height {
+        height: 25mm;
+        overflow: hidden;
+    }
+    .A4.template_1x3 .logo.image {
+        width: 18mm;
+        height: auto;
+        margin: auto;
+    }
     @media print {
         .app-container {
             display: none;
@@ -129,6 +178,9 @@
         .A5.print-by-A4:nth-child(even) {
             page-break-after:always;
         }
+        .A4.template_1x3:nth-child(3n) {
+            page-break-after:always;
+        }
         .divided {
             page-break-before:always;
         }
@@ -137,4 +189,4 @@
         .x_scrollable {
             overflow-x: auto !important;
         }
-    }</style><link href=/css/app.3131d989.css rel=preload as=style><link href=/css/chunk-vendors.259c25a9.css rel=preload as=style><link href=/js/app.3d185ef7.js rel=preload as=script><link href=/js/browser.0c9dbf46.js rel=preload as=script><link href=/js/chunk-vendors.ad65ad0a.js rel=preload as=script><link href=/css/chunk-vendors.259c25a9.css rel=stylesheet><link href=/css/app.3131d989.css rel=stylesheet></head><body style="background-color: #FAFAFA;"><div id=ipc_messages></div><div id=app-body></div><div id=print></div><script src=/js/chunk-vendors.ad65ad0a.js></script><script src=/js/app.3d185ef7.js></script><script src=/js/browser.0c9dbf46.js></script></body></html>
+    }</style><link href=/css/app.e7f5f849.css rel=preload as=style><link href=/css/chunk-vendors.259c25a9.css rel=preload as=style><link href=/js/app.35e574e3.js rel=preload as=script><link href=/js/browser.0c9dbf46.js rel=preload as=script><link href=/js/chunk-vendors.ad65ad0a.js rel=preload as=script><link href=/css/chunk-vendors.259c25a9.css rel=stylesheet><link href=/css/app.e7f5f849.css rel=stylesheet></head><body style="background-color: #FAFAFA;"><div id=ipc_messages></div><div id=app-body></div><div id=print></div><script src=/js/chunk-vendors.ad65ad0a.js></script><script src=/js/app.35e574e3.js></script><script src=/js/browser.0c9dbf46.js></script></body></html>
